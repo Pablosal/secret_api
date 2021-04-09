@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Api de Finanzas Secretas",
+    "description": "Api creada con autenticacion bcrypt y jsonwebtoken para obtener datos de una base de datos de mongoose.",
+    "version": "1.0.0"
+    
+  },
+  "host": "https:/localhost:3000/",
+  "basePath": "/v1/api/",
+  "schemes": "- https",
+  
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "Returns a list of users.",
+        "description": " Optional extended description in Markdown.",
+        "produces": "- application/json",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/registarse":{
+      "get":{
+        "summary":""
+      }
+    },
+    "/iniciarsesion":{
+      "get":{
+        "summary":""
+      }
+    }
+  }
+}
